@@ -21,13 +21,13 @@ class HomePage extends GetView<ApiViewModel> {
             });
           },
           decoration: const InputDecoration(
-            icon: Icon(Icons.search),
+            icon: Icon(Icons.search,color: Colors.amber,),
             hintText: "Search",
             border: InputBorder.none,
           ),
         ),
       ),
-      body: apiViewModel.obx(
+      body: apiViewModel.obx( 
         (state) => ListView.builder(
           itemCount: apiViewModel.filteredList.length,
           itemBuilder: (context, index) {

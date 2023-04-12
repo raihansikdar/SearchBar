@@ -33,7 +33,7 @@ class ApiController extends GetxController {
 
   void filterData(String searchData) {
     if (searchData.isEmpty) {
-      filteredList.value = dataList;
+      filteredList.value = dataList; 
     } else {
       filteredList.value = dataList
           .where(

@@ -31,5 +31,11 @@
             "request": "launch",
             "type": "dart"
         },
+        {
+            "name": "search_bar_home",
+            "cwd": "search_bar_home",
+            "request": "launch",
+            "type": "dart"
+        },
     ]
 }
